@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color:rgb(241, 241, 229);
+    
+}
+#nav-bar{
+    /* height: 40px; */
+    margin-top: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px black;
+    transition: background-color 1s ease;
+}
+#nav-bar:hover{
+    background-color: beige;
+}
+#tag-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+#cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main-box{
+    
+    height: 90vh;
+    width: 90vw;
+    margin-top: 100px;
+    background-color: beige;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    box-shadow: 10px 10px 9px rgb(226, 223, 223), -10px 0 9px 5px rgb(226, 223, 223);
+    
+}
